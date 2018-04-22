@@ -1,0 +1,27 @@
+Python 2.7.14 |Anaconda, Inc.| (default, Nov  8 2017, 13:40:45) [MSC v.1500 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.4.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+#This python program outputs a dictionary taking keys as inputs and outputs the square values of the keys
+#Instantiate a dictionary 
+
+dictionary = dict()
+
+#dictionary[key] = key*key
+dictionary[1] = 1**1
+
+dictionary[2] = 2**2
+
+dictionary[3] = 3**2
+
+dictionary[4] = 4**2
+
+dictionary[5] = 5**2
+
+print dictionary
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
